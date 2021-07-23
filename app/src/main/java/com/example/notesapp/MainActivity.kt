@@ -13,8 +13,8 @@ import androidx.recyclerview.widget.RecyclerView
 class MainActivity : AppCompatActivity(), INotesRVAdapter {
 
     lateinit var viewModel: NoteViewModel
-    lateinit var RVNotes: RecyclerView
-    lateinit var NoteIP: TextView
+    private lateinit var RVNotes: RecyclerView
+    private lateinit var NoteIP: TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
